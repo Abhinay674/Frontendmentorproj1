@@ -1,0 +1,91 @@
+
+h1,
+h2,
+h3 {
+  padding-bottom: 2px;
+}
+
+p {
+  margin: 4px 0;
+}
+
+.container {
+  height: 380px;
+}
+
+.container .left {
+  float: none;
+  width: 200px;
+  height:150px;
+  object-fit:cover;
+}
+
+.container .left img {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  object-fit:cover;
+
+}
+.container .right {
+  float: none;
+  width: 200px;
+  height: 230px;
+  padding:0.8rem;
+  text-align: center;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+
+.container .right h2 {
+  text-align:left;
+  letter-spacing: 5px;
+  font-size: 0.6rem;
+}
+
+.container .right h1 {
+  font-size: 1.2rem;
+  text-align:left;
+  line-height: 1.2rem;
+}
+
+.container .right p {
+  font-size: 0.55rem;
+  line-height: 0.9rem;
+  text-align:left;
+}
+
+.container .right .price {
+  margin-top: 8px;
+  padding-bottom: 2rem;
+}
+
+.right p.new-price {
+  float: left;
+  text-align:left;
+  font-size: 1.2rem;
+  margin-right: 16px;
+}
+
+.container .right p.old-price {
+  float: left;
+  font-size: 0.6rem;
+}
+
+.btn {
+  padding: 1px 2px;
+  font-size: 0.5rem;
+  border-radius: 5px;
+}
+
+.btn:hover{
+  background-color: #2a5948;
+  color:#fff;
+}
+.container .right a img {
+  width: 5%;
+}
